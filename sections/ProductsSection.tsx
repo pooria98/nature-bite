@@ -37,7 +37,7 @@ const products: ProductData[] = [
       "Deep cocoa clusters folded with roasted almonds for an indulgent bite.",
     accentStart: "#e8c48c",
     accentEnd: "#7a4a2c",
-    bgImage: "/images/product-chocolate-bg.png",
+    bgImage: "/images/product-chocolate-bg.webp",
     mainImage: "/images/product-chocolate.png",
   },
   {
@@ -48,7 +48,7 @@ const products: ProductData[] = [
       "Tart mixed berries and toasted oats balanced with a delicate honey finish.",
     accentStart: "#f2a9b0",
     accentEnd: "#8a3b46",
-    bgImage: "/images/product-berry-bg.png",
+    bgImage: "/images/product-berry-bg.webp",
     mainImage: "/images/product-berry.png",
   },
   {
@@ -59,7 +59,7 @@ const products: ProductData[] = [
       "A hearty blend of almonds, cashews, and walnuts for lasting crunch.",
     accentStart: "#d9c08f",
     accentEnd: "#6b5636",
-    bgImage: "/images/product-nuts-bg.png",
+    bgImage: "/images/product-nuts-bg.webp",
     mainImage: "/images/product-nuts.png",
   },
 ];

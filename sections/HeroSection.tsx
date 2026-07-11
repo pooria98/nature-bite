@@ -108,7 +108,7 @@ const HeroSection = () => {
         >
           <Image
             className="w-full h-full object-cover block"
-            src="/images/hero-bg-main.png"
+            src="/images/hero-bg-main.webp"
             width={1600}
             height={900}
             alt="village-background"
@@ -121,7 +121,7 @@ const HeroSection = () => {
         >
           <Image
             className="img-cover"
-            src="/images/mill blades.png"
+            src="/images/mill blades.webp"
             width={400}
             height={400}
             alt="village-background"
@@ -134,7 +134,7 @@ const HeroSection = () => {
         >
           <Image
             className="img-cover"
-            src="/images/plant foreground right.png"
+            src="/images/plant foreground right.webp"
             width={400}
             height={400}
             alt="village-background"
@@ -147,7 +147,7 @@ const HeroSection = () => {
         >
           <Image
             className="img-cover"
-            src="/images/plant foreground left.png"
+            src="/images/plant foreground left.webp"
             width={400}
             height={400}
             alt="village-background"

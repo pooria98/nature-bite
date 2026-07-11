@@ -205,7 +205,7 @@ export default function ProductTypes() {
         </div>
         <Image
           className="w-full h-1/2 md:w-1/2 md:h-full object-contain panel-1-img order-1: md:order-2"
-          src="/images/granola.png"
+          src="/images/granola.webp"
           width={690}
           height={1116}
           alt="granola"
@@ -224,7 +224,7 @@ export default function ProductTypes() {
         </div>
         <Image
           className="w-full h-auto md:w-1/2 panel-2-img order-1"
-          src="/images/oat-chocolate.png"
+          src="/images/oat-chocolate.webp"
           width={1120}
           height={959}
           alt="oat-chocolate"
@@ -245,7 +245,7 @@ export default function ProductTypes() {
         </div>
         <Image
           className="w-full h-1/2 md:w-1/2 md:h-full object-contain panel-3-img order-1: md:order-2"
-          src="/images/biscuit-variety.png"
+          src="/images/biscuit-variety.webp"
           width={1264}
           height={846}
           alt="biscuit-variety"
