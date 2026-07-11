@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import Image from "next/image";
 import { SplitText } from "gsap/SplitText";
+import CtaButton from "@/components/CtaButton";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP, SplitText);
 
@@ -62,6 +63,11 @@ export default function ProductTypes() {
                 { yPercent: 100 },
                 { yPercent: 0, stagger: 0.05, delay: 0.5, duration: 1 },
               );
+              gsap.fromTo(
+                ".panel-1-cta",
+                { opacity: 0, y: 100 },
+                { opacity: 1, y: 0, delay: 0.5 },
+              );
               // show image 1
               gsap.fromTo(
                 ".panel-1-img",
@@ -110,6 +116,11 @@ export default function ProductTypes() {
                 { yPercent: 100 },
                 { yPercent: 0, stagger: 0.05, delay: 0.5, duration: 1 },
               );
+              gsap.fromTo(
+                ".panel-2-cta",
+                { opacity: 0, y: 100 },
+                { opacity: 1, y: 0, delay: 0.5 },
+              );
               // show image 2
               gsap.fromTo(
                 ".panel-2-img",
@@ -157,6 +168,11 @@ export default function ProductTypes() {
                 { yPercent: 100 },
                 { yPercent: 0, stagger: 0.05, delay: 0.5, duration: 1 },
               );
+              gsap.fromTo(
+                ".panel-3-cta",
+                { opacity: 0, y: 100 },
+                { opacity: 1, y: 0, delay: 0.5 },
+              );
               // show image 3
               gsap.fromTo(
                 ".panel-3-img",
@@ -198,10 +214,11 @@ export default function ProductTypes() {
           <h1 className="text-5xl font-canela tracking-wide font-bold mb-4 panel-1-title">
             Granola
           </h1>
-          <p className="text-slate-800 font-semibold text-lg panel-1-description">
+          <p className="text-slate-800 font-semibold text-lg mb-4 panel-1-description">
             Golden clusters with a rich crunch. Made with carefully selected
             ingredients for honest, balanced flavor.
           </p>
+          <CtaButton className="panel-1-cta">Shop Now</CtaButton>
         </div>
         <Image
           className="w-full h-1/2 md:w-1/2 md:h-full object-contain panel-1-img order-1: md:order-2"
@@ -218,10 +235,11 @@ export default function ProductTypes() {
           <h1 className="text-5xl font-canela tracking-wide text-[#ffefb9] text-shadow-[1px_1px_2px_black] font-bold mb-4 panel-2-title">
             Oat Chocolate
           </h1>
-          <p className="text-[#fff8e0] font-semibold text-lg panel-2-description">
+          <p className="text-[#fff8e0] font-semibold text-lg mb-4 panel-2-description">
             Premium oats meet carefully selected chocolate. Warm, layered notes
             with a naturally refined bite. A polished treat for daily rituals.
           </p>
+          <CtaButton className="panel-2-cta">Shop Now</CtaButton>
         </div>
         <Image
           className="w-full h-auto md:w-1/2 panel-2-img order-1"
@@ -238,10 +256,11 @@ export default function ProductTypes() {
           <h1 className="text-5xl font-canela tracking-wide font-bold mb-4 panel-3-title">
             Biscuit Variety
           </h1>
-          <p className="text-slate-800 font-semibold text-lg panel-3-description">
+          <p className="text-slate-800 font-semibold text-lg mb-4 panel-3-description">
             Beautifully made with a crisp, satisfying texture. Honest flavors
             and consistent quality. Designed to look as special as it tastes.
           </p>
+          <CtaButton className="panel-3-cta">Shop Now</CtaButton>
         </div>
         <Image
           className="w-full h-1/2 md:w-1/2 md:h-full object-contain panel-3-img order-1: md:order-2"
