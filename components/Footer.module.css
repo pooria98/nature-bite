@@ -1,0 +1,58 @@
+/* Footer.module.css */
+
+.footerContainer {
+  background-color: #633a28;
+  padding: 3rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px; /* Fixed size to keep them circular */
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff6e5; /* White background for the icons */
+}
+
+/* Section 2: Navigation Links */
+.navRow {
+  display: flex;
+  justify-content: center;
+  align-items: baseline; /* Align text to the baseline of the icons above */
+  flex-wrap: wrap; /* Wraps if screen is too small */
+  gap: 40px;
+  padding-bottom: 20px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.navLink {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase; /* Matches the image style */
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-weight: normal;
+}
+
+.navLink:hover {
+  opacity: 1;
+}
+
+/* Section 3: Bottom Copyright Bar */
+.bottomBar {
+  background-color: #121214; /* Even darker than the main footer */
+  width: 100%;
+  padding-bottom: 40px; /* Matches the spacing in image */
+}

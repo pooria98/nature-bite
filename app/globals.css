@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Canela";
+  src: url("/fonts/Canela-Regular.ttf");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --font-canela: "Canela", serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@utility img-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility btn {
+  @apply font-semibold min-w-30 rounded px-4 py-2;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100dvh;
+  min-height: 500px;
+  background-color: #fff6e5;
+  background-image:
+    radial-gradient(at center top, #fff6e5 60%, #ffdb96aa 120%),
+    url("/images/bg-pattern.png");
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, 300px;
 }
