@@ -199,8 +199,8 @@ export default function ProductTypes() {
             Granola
           </h1>
           <p className="text-slate-800 font-semibold text-lg panel-1-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-            omnis. Expedita architecto laborum, sunt itaque.
+            Golden clusters with a rich crunch. Made with carefully selected
+            ingredients for honest, balanced flavor.
           </p>
         </div>
         <Image
@@ -219,7 +219,8 @@ export default function ProductTypes() {
             Oat Chocolate
           </h1>
           <p className="text-[#fff8e0] font-semibold text-lg panel-2-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit, Vero omnis.
+            Premium oats meet carefully selected chocolate. Warm, layered notes
+            with a naturally refined bite. A polished treat for daily rituals.
           </p>
         </div>
         <Image
@@ -238,9 +239,8 @@ export default function ProductTypes() {
             Biscuit Variety
           </h1>
           <p className="text-slate-800 font-semibold text-lg panel-3-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-            omnis. Expedita architecto laborum, sunt itaque laudantium maxime
-            ducimus.
+            Beautifully made with a crisp, satisfying texture. Honest flavors
+            and consistent quality. Designed to look as special as it tastes.
           </p>
         </div>
         <Image
