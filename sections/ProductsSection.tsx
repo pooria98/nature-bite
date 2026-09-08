@@ -288,6 +288,7 @@ const ProductsSection = () => {
             alt={`${product.title} granola texture`}
             width={500}
             height={500}
+            data-preload
           />
           <Image
             ref={(el) => {
@@ -298,6 +299,7 @@ const ProductsSection = () => {
             alt={`${product.title} granola jar`}
             width={500}
             height={500}
+            data-preload
           />
         </div>
       ))}

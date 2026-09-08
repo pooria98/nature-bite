@@ -1,7 +1,7 @@
 /* Footer.module.css */
 
 .footerContainer {
-  background-color: #633a28;
+  background-color: hsl(18, 35%, 35%);
   padding: 3rem 1rem 1rem;
   display: flex;
   flex-direction: column;

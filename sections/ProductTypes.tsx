@@ -226,6 +226,7 @@ export default function ProductTypes() {
           width={690}
           height={1116}
           alt="granola"
+          data-preload
         />
       </div>
 
@@ -247,6 +248,7 @@ export default function ProductTypes() {
           width={1120}
           height={959}
           alt="oat-chocolate"
+          data-preload
         />
       </div>
 
@@ -268,6 +270,7 @@ export default function ProductTypes() {
           width={1264}
           height={846}
           alt="biscuit-variety"
+          data-preload
         />
       </div>
     </section>

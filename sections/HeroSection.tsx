@@ -112,6 +112,7 @@ const HeroSection = () => {
             width={1600}
             height={900}
             alt="village-background"
+            data-preload
           />
         </div>
 
@@ -125,6 +126,7 @@ const HeroSection = () => {
             width={400}
             height={400}
             alt="village-background"
+            data-preload
           />
         </div>
 
@@ -138,6 +140,7 @@ const HeroSection = () => {
             width={400}
             height={400}
             alt="village-background"
+            data-preload
           />
         </div>
 
@@ -151,6 +154,7 @@ const HeroSection = () => {
             width={400}
             height={400}
             alt="village-background"
+            data-preload
           />
         </div>
       </div>

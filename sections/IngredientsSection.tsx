@@ -228,6 +228,7 @@ const IngredientsSection = () => {
           style={{
             backgroundImage: `linear-gradient(rgba(15, 9, 6, 0.58), rgba(15, 9, 6, 0.38)), url('${panel.background}')`,
           }}
+          data-preload
         >
           <div className={styles.panelContent}>
             <p className={styles.panelIndex}>

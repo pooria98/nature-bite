@@ -34,9 +34,9 @@
 
 /* spinner */
 .spinner {
-  width: 32px;
-  height: 32px;
-  border: 3px solid #333;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #333;
   border-top-color: #fff;
   border-radius: 50%;
   animation: spin 0.8s linear infinite;
