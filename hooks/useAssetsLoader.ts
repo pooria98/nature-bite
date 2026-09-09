@@ -9,7 +9,7 @@ interface Options {
 
 export function useAssetsLoader({
   extraImages = [],
-  timeoutMs = 100000,
+  timeoutMs = 10000,
 }: Options = {}) {
   const [progress, setProgress] = useState(0);
   const [isReady, setIsReady] = useState(false);
